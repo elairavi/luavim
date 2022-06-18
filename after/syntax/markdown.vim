@@ -1,9 +1,9 @@
 
-"[[------------------------------------------]]"
-"    markdown.vim - syntax markdown preview    "
-"   Author: Ben williams, ChristianChiarulli   "
-"              License: GPLv3                  "
-"[[------------------------------------------]]"
+"[[----------------------------------------------]]"
+"      markdown.vim - syntax markdown preview      "
+"     Author: Ben williams, ChristianChiarulli     "
+"                License: GPLv3                    "
+"[[----------------------------------------------]]"
 
 " Read the HTML syntax to start with
 if version < 600
