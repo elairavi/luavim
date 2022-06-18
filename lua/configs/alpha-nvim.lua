@@ -5,7 +5,7 @@
 --              License: GPLv3              --
 --[[--------------------------------------]]--
 
--- Call Alpha With A pcall
+-- Require Alpha With A protected call
 local status_ok, alpha = pcall(require, "alpha")
 if not status_ok then
 	return
@@ -34,7 +34,7 @@ dashboard.section.buttons.val = {
 	dashboard.button("q", "  Quit Neovim",           ":qa<CR>"),
 }
 
--- LuaVim Ascii Art
+-- Luavim Ascii Art
 dashboard.section.header.val = {
   [[██╗     ██╗   ██╗  █████╗  ██╗   ██╗ ██╗ ███╗   ███╗]],
   [[██║     ██║   ██║ ██╔══██╗ ██║   ██║ ██║ ████╗ ████║]],
