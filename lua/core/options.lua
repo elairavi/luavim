@@ -54,6 +54,7 @@ set.shiftwidth = 2                           -- Change the number of space chara
 set.showtabline = 1                          -- Always show tabs
 set.cmdheight = 1                            -- More space for displaying messages
 set.numberwidth = 5                          -- set number column width to 2 {default 4}
+vim.cmd [[setlocal conceallevel=2]]          -- Syntax conceal for markdown
 vim.cmd [[set noshowmode]]                   -- We don't need to see things like -- INSERT -- anymore
 vim.cmd [[syntax enable]]                    -- Enables syntax highlighing
 vim.cmd [[set t_Co=256]]                     -- Support 256 colors
