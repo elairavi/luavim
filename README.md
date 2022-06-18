@@ -4,7 +4,7 @@
 
 ## Description
 
-* **Luavim** is a simple **neovim** configuration written in **lua** aiming to provide a **base** config, so users could tweak the defaults, remove the things they don't like and build their config on top of it.
+* **Luavim** is a simple **neovim** configuration aiming to provide a **base** config, so users could tweak the defaults, remove the things they don't like, and build their config on top of it.
 
 ## Table of Contents
 
