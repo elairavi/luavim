@@ -43,15 +43,15 @@
 ├── init.lua
 └── lua
     ├── configs
-    │   ├── alpha-nvim.lua
+    │   ├── alpha.lua
     │   ├── colorizer.lua
     │   ├── colorschemes.lua
     │   ├── commentary.lua
     │   ├── completion.lua
     │   ├── gitsigns.lua
     │   ├── impatient.lua
-    │   ├── nvim-tree.lua
-    │   ├── smooth-scrl.lua
+    │   ├── nvimtree.lua
+    │   ├── neoscroll.lua
     │   ├── statusline.lua
     │   ├── toggleterm.lua
     │   └── treesitter.lua
