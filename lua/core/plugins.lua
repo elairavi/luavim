@@ -48,7 +48,7 @@ packer.init {
 -- Install your plugins here
 return packer.startup(function(use)
 
-   -- My plugins
+-- My plugins
    -- Git integration for buffers
     use {
    			'lewis6991/gitsigns.nvim',
@@ -64,13 +64,13 @@ return packer.startup(function(use)
     use "nvim-treesitter/nvim-treesitter"    -- Treesitter Syntax highlighting and abstraction layer
     use "nvim-lualine/lualine.nvim"          -- Fast and easy statusline for neovim
     use "shaunsingh/nord.nvim"               -- Neovim theme based off of the Nord Color Palette
-    use "goolord/alpha-nvim"                 -- lua powered greeter like vim-startify / dashboard-nvim
+    use "goolord/alpha-nvim"                 -- Lua powered greeter like vim-startify / dashboard-nvim
     use "akinsho/nvim-toggleterm.lua"        -- Plugin to easily toggle a terminal
     use "terrortylor/nvim-comment"           -- Comment toggler for Neovim written in Lua
     use "norcalli/nvim-colorizer.lua"        -- Colors highlighter for neovim
-    use "hrsh7th/nvim-cmp"                   -- completion plugin for neovim coded in Lua
+    use "hrsh7th/nvim-cmp"                   -- Completion plugin for neovim coded in Lua
     use "hrsh7th/cmp-buffer"                 -- Nvim-cmp source for buffer words
-    use "hrsh7th/cmp-path"                   -- nvim-cmp source for path
+    use "hrsh7th/cmp-path"                   -- Nvim-cmp source for path
     use "L3MON4D3/LuaSnip"                   -- Snippet Engine for Neovim written in Lua
     use "lewis6991/impatient.nvim"           -- Speed up loading Lua modules to improve startup time
     use "karb94/neoscroll.nvim"              -- Smooth scrolling plugin written in lua

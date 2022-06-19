@@ -31,14 +31,14 @@ map("n", "<C-k>", ":resize -2<cr>", {})
 map("n", "<C-l>", ":vertical resize -2<cr>", {})
 
 -- Alternate way to save and quit nvim
-map("n", "<A-w>", ":w<CR>", {}) -- save file
-map("n", "<A-q>", ":q<CR>", {}) -- quit nvim
-map("n", "<A-1>", ":q!<CR>",{}) -- quit without saving
+map("n", "<A-w>", ":w<CR>", {})  -- save file
+map("n", "<A-q>", ":q<CR>", {})  -- quit nvim
+map("n", "<A-1>", ":q!<CR>", {}) -- quit without saving
 
 -- Nvim Comment
-map("n", "<leader>c", ":CommentToggle<CR>", {})       -- Comment One Line
-map("x", "<leader>c", ":'<,'>CommentToggle<CR>", {})  -- Comment Multiple Lines In Visual Mode
-map("n", "<leader>p", "vip:CommentToggle<CR>", {})    -- Comment A Paragraph
+map("n", "<leader>c", ":CommentToggle<CR>", {}) -- Comment One Line
+map("n", "<leader>p", "vip:CommentToggle<CR>", {}) -- Comment A Paragraph
+map("x", "<leader>c", ":'<,'>CommentToggle<CR>", {}) -- Comment Multiple Lines In Visual Mode
 
 -- Don't accidently create macros when trying to quit
 map('n', 'Q', 'q', {})
