@@ -17,13 +17,13 @@ local core_modules = {
  "configs/colorschemes",   -- All Colorschemes
  "configs/treesitter",     -- Syntax Highlighting
  "configs/completion",     -- Auto Completion
- "configs/alpha-nvim",     -- Wellcome Screen
- "configs/nvim-tree",      -- File Explorer
+ "configs/alpha",          -- Wellcome Screen
+ "configs/nvimtree",       -- File Explorer
  "configs/gitsigns",       -- Git Integration
  "configs/commentary",     -- Easily Comment Lines
  "configs/statusline",     -- Status Line
  "configs/colorizer",      -- Colors Highlighter
- "configs/smooth-scrl",    -- Smooth Scrolling
+ "configs/neoscroll",      -- Smooth Scrolling
  "configs/toggleterm",     -- Floating Terminal
 
 ---- Other Utilities --------------------------------
