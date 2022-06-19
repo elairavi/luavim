@@ -19,46 +19,46 @@ vim.g.maplocalleader = " "
 -- Normal Mode --
 -----------------
 -- Mappings for moving through splits
-map ("n", "<A-h>", "<C-w>h", {})
-map ("n", "<A-j>", "<C-w>j", {})
-map ("n", "<A-k>", "<C-w>k", {})
-map ("n", "<A-l>", "<C-w>l", {})
+map("n", "<A-h>", "<C-w>h", {})
+map("n", "<A-j>", "<C-w>j", {})
+map("n", "<A-k>", "<C-w>k", {})
+map("n", "<A-l>", "<C-w>l", {})
 
 -- Resize current buffer by +/- 2
-map ("n", "<C-h>", ":vertical resize +2<cr>", {})
-map ("n", "<C-j>", ":resize +2<cr>", {})
-map ("n", "<C-k>", ":resize -2<cr>", {})
-map ("n", "<C-l>", ":vertical resize -2<cr>", {})
+map("n", "<C-h>", ":vertical resize +2<cr>", {})
+map("n", "<C-j>", ":resize +2<cr>", {})
+map("n", "<C-k>", ":resize -2<cr>", {})
+map("n", "<C-l>", ":vertical resize -2<cr>", {})
 
 -- Alternate way to save and quit nvim
-map ("n", "<A-w>", ":w<CR>", {}) -- save file
-map ("n", "<A-q>", ":q<CR>", {}) -- quit nvim
-map ("n", "<A-1>", ":q!<CR>",{}) -- quit without saving
+map("n", "<A-w>", ":w<CR>", {}) -- save file
+map("n", "<A-q>", ":q<CR>", {}) -- quit nvim
+map("n", "<A-1>", ":q!<CR>",{}) -- quit without saving
 
 -- Nvim Comment
-map ("n", "<leader>c", ":CommentToggle<CR>", {})       -- Comment One Line
-map ("x", "<leader>c", ":'<,'>CommentToggle<CR>", {})  -- Comment Multiple Lines In Visual Mode
-map ("n", "<leader>p", "vip:CommentToggle<CR>", {})    -- Comment A Paragraph
+map("n", "<leader>c", ":CommentToggle<CR>", {})       -- Comment One Line
+map("x", "<leader>c", ":'<,'>CommentToggle<CR>", {})  -- Comment Multiple Lines In Visual Mode
+map("n", "<leader>p", "vip:CommentToggle<CR>", {})    -- Comment A Paragraph
 
 -- Don't accidently create macros when trying to quit
-map ('n', 'Q', 'q', {})
-map ('n', 'q', '<nop>', {})
+map('n', 'Q', 'q', {})
+map('n', 'q', '<nop>', {})
 
 -- GitSings mappings
-map ('n', "<leader>h", ":Gitsigns preview_hunk<CR>", {})  -- preview_hunk
-map ('n', "<leader>r", ":Gitsigns reset_buffer<CR>", {})  -- reset_buffer
+map('n', "<leader>h", ":Gitsigns preview_hunk<CR>", {})  -- preview_hunk
+map('n', "<leader>r", ":Gitsigns reset_buffer<CR>", {})  -- reset_buffer
 
 -- Toggle Alpha Dashboard
-map ('n', "<leader>a", ":set laststatus=3<CR> | :Alpha<CR>", {})
+map('n', "<leader>a", ":set laststatus=3<CR> | :Alpha<CR>", {})
 
 -- Toggle NvimTree
-map ("n", "<leader>n", ":NvimTreeToggle<CR>", {})
+map("n", "<leader>n", ":NvimTreeToggle<CR>", {})
 
 -- Yank entire line
-map ("n", "yie", ":<C-u>%y<CR>", {})
+map("n", "yie", ":<C-u>%y<CR>", {})
 
 -- Packer Update
-map ("n", "<leader>u", ":PackerSync<CR>", {})
+map("n", "<leader>u", ":PackerSync<CR>", {})
 
 -----------------
 -- Insert Mode --
