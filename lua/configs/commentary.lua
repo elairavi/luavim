@@ -5,6 +5,7 @@
 --              License: GPLv3               --
 --[[---------------------------------------]]--
 
+-- Nvim comment options
 require('nvim_comment').setup({
    marker_padding = true,                  -- Linters prefer comment and line to have a space in between markers
    comment_empty = true,                   -- should comment out empty or whitespace only lines

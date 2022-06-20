@@ -5,11 +5,13 @@
 --              License: GPLv3              --
 --[[--------------------------------------]]--
 
+-- Load nvim-cmp with a protected call
 local cmp_status_ok, cmp = pcall(require, "cmp")
 if not cmp_status_ok then
     return
 end
 
+-- Load luasnip with a protected call
 local snip_status_ok, luasnip = pcall(require, "luasnip")
 if not snip_status_ok then
     return
@@ -58,6 +60,8 @@ cmp.setup {
             luasnip.lsp_expand(args.body)
         end,
   },
+
+-- Nvim-cmp settings
 mapping = {
         ["<C-k>"] = cmp.mapping.select_prev_item(),
         ["<C-j>"] = cmp.mapping.select_next_item(),

@@ -5,11 +5,13 @@
 --             License: GPLv3               --
 --[[--------------------------------------]]--
 
+-- Load neoscroll
 require('neoscroll').setup({
     pre_hook = function(info) if info == "cursorline" then vim.wo.cursorline = false end end,
     post_hook = function(info) if info == "cursorline" then vim.wo.cursorline = true end end
 })
 
+-- Neoscroll options
 local t = {}
 
 -- ['alt + u'] for scrolling up , ['alt + d'] for scrolling down

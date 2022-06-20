@@ -5,12 +5,13 @@
 --              License: GPLv3               --
 --[[---------------------------------------]]--
 
+-- Nord colorscheme options
 vim.g.nord_contrast = true
 vim.g.nord_borders = false
 vim.g.nord_disable_background = true
 vim.g.nord_italic = false
 
--- Load the colorscheme
+-- Load Nord colorscheme with A protected call
 local colorscheme = "nord"
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then

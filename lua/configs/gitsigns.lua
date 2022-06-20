@@ -5,11 +5,13 @@
 --             License: GPLv3              --
 --[[-------------------------------------]]--
 
+-- Load gitsigns with a protected call
 local status_ok, gitsigns = pcall(require, "gitsigns")
 if not status_ok then
   return
 end
 
+-- Gitsigns options
 gitsigns.setup {
   signs = {
     add = { hl = "GitSignsAdd", text = "+", numhl = "GitSignsAddNr", linehl = "GitSignsAddLn" },

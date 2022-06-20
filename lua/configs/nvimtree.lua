@@ -5,6 +5,7 @@
 --              License: GPLv3             --
 --[[-------------------------------------]]--
 
+-- Load nvimtree with protected call
 local status_ok, nvim_tree = pcall(require, "nvim-tree")
 if not status_ok then
     return
@@ -17,6 +18,7 @@ end
 
 local tree_cb = nvim_tree_config.nvim_tree_callback
 
+-- Nvimtree options
 nvim_tree.setup {
   renderer = {
     root_folder_modifier = ":t",

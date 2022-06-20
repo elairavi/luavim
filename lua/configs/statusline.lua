@@ -170,12 +170,11 @@ ins_right {
 
 -- File Encoding
 ins_right {
-    'o:encoding', -- Option component same as &encoding in viml
+    'o:encoding', -- Option component same as & encoding in viml
     fmt = string.upper, -- I'm not sure why it's upper case either ;)
     cond = conditions.hide_in_width,
     padding = { right = 2 },
     -- color = { fg = colors.green, gui = 'bold' },
-    -- Add components to right sections
 }
 
 -- File Format
