@@ -42,8 +42,9 @@ map("x", "<leader>c", ":'<,'>CommentToggle<CR>", {}) -- Comment Multiple Lines I
 
 -- Telescope
 map("n", "<leader>b", ":Telescope buffers<CR>", {})  -- Preview for all opened buffers
+map('n', "<leader>of", ":Telescope oldfiles<CR>", {}) -- Old files
 map('n', "<leader>f", ":Telescope find_files<CR>", {}) -- Find files
-map('n', "<leader>gs", ":Telescope git_status<CR>", {}) -- Find files
+map('n', "<leader>gs", ":Telescope git_status<CR>", {}) -- git status
 
 -- Don't accidently create macros when trying to quit
 map('n', 'Q', 'q', {})
