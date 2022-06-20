@@ -1,6 +1,6 @@
 
-![luavim](https://raw.githubusercontent.com/elai4/luavim/main/img/screenshot1.png)
-![tree+split](https://raw.githubusercontent.com/elai4/luavim/main/img/screenshot2.png)
+![luavim](/img/screenshot1.png?raw=true)
+![tree+split](/img/screenshot2.png?raw=true)
 
 ## Description
 
@@ -89,8 +89,7 @@ git clone https://github.com/elairavi/luavim.git ~/.config/nvim
 
 - Open neovim with this flag `nvim +checkhealth` you should not see any errors in the output (except for the one related to Python):
 
-![checkhealth](https://raw.githubusercontent.com/elai4/luavim/main/img/checkhealth.png)
-
+![checkhealth](/img/checkhealth.png?raw=true)
 
 * Note: If you're having a problem or some kinda of an error with a plugin, just run these commands:
 ```term
