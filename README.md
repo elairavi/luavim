@@ -4,7 +4,7 @@
 
 ## Description
 
-* **Luavim** is a simple **neovim** configuration aiming to provide a **base** config, so users could tweak the defaults, remove the things they don't like, and build their config on top of it.
+* **Luavim** is a simple **neovim** configuration written in lua, aiming to provide a **base** config, so users could tweak the defaults, remove the things they don't like, and build their config on top of it.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@
 - [packer.nvim](https://github.com/wbthomason/packer.nvim) -  A use-package inspired plugin manager for Neovim
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Nvim Treesitter configurations and abstraction layer
 - [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A file explorer tree for neovim written in lua
-- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - A blazing fast and easy to configure neovim statusline plugin written in pure lua.
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - A blazing fast and easy to configure neovim statusline plugin written in pure lua
 - [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) - A Lua fork of vim-devicons
 - [nvim-comment](https://github.com/terrortylor/nvim-comment) - A comment toggler for Neovim, written in Lua
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration for buffers
@@ -34,6 +34,8 @@
 - [impatient.nvim](https://github.com/lewis6991/impatient.nvim) - Improve startup time for Neovim
 - [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) - Smooth scrolling neovim plugin written in lua
 - [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) - A neovim lua plugin to help easily manage multiple terminal windows
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Find, filter, preview, pick. all lua, with telescope
+- [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) - All the lua functions I don't want to write twice
 
 ## Directory Tree
 
