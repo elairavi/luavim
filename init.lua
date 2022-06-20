@@ -25,6 +25,7 @@ local core_modules = {
  "configs/colorizer",      -- Colors Highlighter
  "configs/neoscroll",      -- Smooth Scrolling
  "configs/toggleterm",     -- Floating Terminal
+ "configs/telescope",      -- Fuzzy finder
 
 ---- Other Utilities --------------------------------
  "utils/vstuff",           -- Other Stuff
