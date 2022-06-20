@@ -1,9 +1,9 @@
 
---[[--------------------------------------]--
---         telescope - fuzzy finder        --
---        Author: ChristianChiarulli       --
---             License: GPLv3              --
---[[-------------------------------------]]--
+--[[-------------------------------------]--
+--        telescope - fuzzy finder        --
+--    Author: ChristianChiarulli, elai    --
+--            License: GPLv3              --
+--[[------------------------------------]]--
 
 local status_ok, telescope = pcall(require, "telescope")
 if not status_ok then
@@ -16,7 +16,7 @@ telescope.setup {
   defaults = {
 
     prompt_prefix = " ",
-    selection_caret = " ",
+    selection_caret = "  ",
     path_display = { "smart" },
     file_ignore_patterns = { ".git/", "node_modules" },
 
@@ -25,8 +25,6 @@ telescope.setup {
         ["<A-q>"] = actions.close,
         ["<A-j>"] = actions.move_selection_next,
         ["<A-k>"] = actions.move_selection_previous,
-        ["<Up>"] = actions.cycle_history_prev,
-        ["<Down>"] = actions.cycle_history_next,
       },
     },
   },
