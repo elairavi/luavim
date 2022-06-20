@@ -40,11 +40,16 @@ map("n", "<leader>c", ":CommentToggle<CR>", {}) -- Comment One Line
 map("n", "<leader>p", "vip:CommentToggle<CR>", {}) -- Comment A Paragraph
 map("x", "<leader>c", ":'<,'>CommentToggle<CR>", {}) -- Comment Multiple Lines In Visual Mode
 
+-- Telescope
+map("n", "<leader>b", ":Telescope buffers<CR>", {})  -- Preview for all opened buffers
+map('n', "<leader>f", ":Telescope find_files<CR>", {}) -- Find files
+map('n', "<leader>gs", ":Telescope git_status<CR>", {}) -- Find files
+
 -- Don't accidently create macros when trying to quit
 map('n', 'Q', 'q', {})
 map('n', 'q', '<nop>', {})
 
--- GitSings mappings
+-- GitSings
 map('n', "<leader>h", ":Gitsigns preview_hunk<CR>", {})  -- preview_hunk
 map('n', "<leader>r", ":Gitsigns reset_buffer<CR>", {})  -- reset_buffer
 
