@@ -30,12 +30,6 @@ map("n", "<C-j>", ":resize +2<cr>", {})
 map("n", "<C-k>", ":resize -2<cr>", {})
 map("n", "<C-l>", ":vertical resize -2<cr>", {})
 
--- Telescope
-map("n", "<leader>b", ":Telescope buffers<CR>", {})  -- Preview for all opened buffers
-map('n', "<leader>of", ":Telescope oldfiles<CR>", {}) -- Old files
-map('n', "<leader>f", ":Telescope find_files<CR>", {}) -- Find files
-map('n', "<leader>gs", ":Telescope git_status<CR>", {}) -- git status
-
 -- Alternate way to save and quit nvim
 map("n", "<A-w>", ":w<CR>", {})  -- save file
 map("n", "<A-q>", ":q<CR>", {})  -- quit nvim
@@ -65,6 +59,12 @@ map("n", "yie", ":<C-u>%y<CR>", {})
 
 -- Packer Update
 map("n", "<leader>u", ":PackerSync<CR>", {})
+
+-- Telescope Mappings
+map("n", "<Leader>b", "<cmd>lua require'telescope.builtin'.buffers(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", {}) -- preview buffers
+map("n", "<Leader>of", "<cmd>lua require'telescope.builtin'.oldfiles(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", {}) -- old files
+map("n", "<Leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", {}) -- Find files
+map("n", "<leader>gs", ":Telescope git_status<CR>", {}) -- git status
 
 -----------------
 -- Insert Mode --
