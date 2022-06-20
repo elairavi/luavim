@@ -74,6 +74,8 @@ return packer.startup(function(use)
     use "L3MON4D3/LuaSnip"                   -- Snippet Engine for Neovim written in Lua
     use "lewis6991/impatient.nvim"           -- Speed up loading Lua modules to improve startup time
     use "karb94/neoscroll.nvim"              -- Smooth scrolling plugin written in lua
+    use 'nvim-telescope/telescope.nvim'      -- Find, filter, preview, pick. all lua, with telescope
+    use 'nvim-lua/plenary.nvim'              -- Plenary, a dependency of telescope
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
