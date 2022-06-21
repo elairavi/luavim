@@ -7,11 +7,13 @@
 
 -- Forked from : https://github.com/nvim-lualine/lualine.nvim/blob/master/examples/evil_lualine.lua
 
--- Load lualine
-local lualine = require('lualine')
+-- Load lualine with a protected call
+local status_ok, lualine = pcall(require, "lualine")
+if not status_ok then
+    return
+end
 
 -- Color table for highlights
--- Stylua: ignore
 local colors = {
     bg       = '#0c1014',
     fg       = '#bbc2cf',
