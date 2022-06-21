@@ -7,6 +7,7 @@
 
 -- Forked from : https://github.com/nvim-lualine/lualine.nvim/blob/master/examples/evil_lualine.lua
 
+-- Load lualine
 local lualine = require('lualine')
 
 -- Color table for highlights
@@ -170,21 +171,20 @@ ins_right {
 
 -- File Encoding
 ins_right {
-    'o:encoding', -- Option component same as & encoding in viml
-    fmt = string.upper, -- I'm not sure why it's upper case either ;)
+    'o:encoding',
     cond = conditions.hide_in_width,
     padding = { right = 2 },
     -- color = { fg = colors.green, gui = 'bold' },
+    -- fmt = string.upper,
 }
 
 -- File Format
 ins_right {
     'fileformat',
-     -- fmt = string.upper,
-     -- icons_enabled = false, -- I think icons are cool but vimline doesn't have them. sigh
      padding = { right = 2 },
-     symbols = { unix = 'NIX '},
+     symbols = { unix = 'Tux '},
      -- color = { fg = colors.green, gui = 'bold' },
+     -- icons_enabled = false,
 }
 
 -- File Size
@@ -219,8 +219,8 @@ ins_right {
     function()
         return '▎'
     end,
-    color = { fg = colors.blue }, -- Sets highlighting of component
-    padding = { left = 1, right = 0 }, -- We don't need space before this
+    color = { fg = colors.blue },
+    padding = { left = 1, right = 0 },
 }
 
 -- Now don't forget to initialize lualine
