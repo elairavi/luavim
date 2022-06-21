@@ -15,7 +15,7 @@ end
 nvim_treesitter.setup {
   -- A list of parser names, or "all" or just the "maintained" ones
   ensure_installed = {
-    'bash', 'c', 'cpp','lua','python'
+    'bash', 'c', 'lua', 'python'
   },
   sync_install = false,
   highlight = {
