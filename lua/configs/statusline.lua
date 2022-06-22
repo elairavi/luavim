@@ -184,7 +184,7 @@ ins_right {
 ins_right {
     'fileformat',
      padding = { right = 2 },
-     symbols = { unix = 'Tux '},
+     symbols = { unix = 'unix '},
      -- color = { fg = colors.green, gui = 'bold' },
      -- icons_enabled = false,
 }
