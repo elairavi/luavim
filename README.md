@@ -118,7 +118,7 @@ rm -rf ~/.cache/nvim
 
 #### Neovim lua projects and examples
 
-- https://github.com/LunarVim/Neovim-from-scratch
+- https://github.com/LunarVim/nvim-basic-ide
 - https://github.com/brainfucksec/neovim-lua
 - https://github.com/siduck76/NvChad
 - https://github.com/artart222/CodeArt
