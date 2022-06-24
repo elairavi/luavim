@@ -28,10 +28,10 @@ dashboard.section.footer.val = {
 -- Custom Section
 dashboard.section.buttons.val = {
 	  dashboard.button("n", "  Create New file",       ":set laststatus=3 | :ene <BAR> startinsert <CR>"),
-	  dashboard.button("e", "  Open File Explorer",    ":set laststatus=3 | :NvimTreeOpen <CR>"),
-    dashboard.button("v", "  Neovim Settings ",      ":set laststatus=3 | e ~/.config/nvim/init.lua <CR>"),
+    dashboard.button("r", "  Open Recent Files",     ":set laststatus=3 | :Telescope oldfiles <CR>"),
+    dashboard.button("v", "  Neovim Settings",       ":set laststatus=3 | e ~/.config/nvim/init.lua <CR>"),
 	  dashboard.button("u", "  Update Nvim Plugins",   ":PackerSync <CR>"),
-	  dashboard.button("q", "  Quit Neovim",           ":qa<CR>"),
+	  dashboard.button("q", "  Quit Neovim",           ":qa<CR>"),
 }
 
 -- Luavim Ascii Art
@@ -46,7 +46,7 @@ dashboard.section.header.val = {
 
 -- Layout For Luavim ascii art
 dashboard.config.layout = {
-    { type = "padding", val = 5 },
+    { type = "padding", val = 6 },
     dashboard.section.header,
     { type = "padding", val = 2 },
     dashboard.section.buttons,
