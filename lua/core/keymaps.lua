@@ -45,8 +45,8 @@ map('n', 'Q', 'q', {})
 map('n', 'q', '<nop>', {})
 
 -- GitSings
-map('n', "<leader>h", ":Gitsigns preview_hunk<CR>", {})  -- preview_hunk
-map('n', "<leader>r", ":Gitsigns reset_buffer<CR>", {})  -- reset_buffer
+map('n', "<leader>ph", ":Gitsigns preview_hunk<CR>", {})  -- preview_hunk
+map('n', "<leader>rh", ":Gitsigns reset_buffer<CR>", {})  -- reset_buffer
 
 -- Toggle Alpha Dashboard
 map('n', "<leader>a", ":set laststatus=3<CR> | :Alpha<CR>", {})
