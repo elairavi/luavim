@@ -1,7 +1,7 @@
 
 --[[---------------------------------------]]--
 --      treesitter - syntax highlighting     --
---         Author: elai, brainfucksec        --
+--               Author: elai                --
 --              License: GPLv3               --
 --[[---------------------------------------]]--
 
@@ -19,6 +19,6 @@ nvim_treesitter.setup {
   },
   sync_install = false,
   highlight = {
-    enable = true, -- `false` will disable the whole extension
+    enable = true, -- `false` will disable the whole plugin
   },
 }
