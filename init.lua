@@ -10,7 +10,7 @@ local core_modules = {
 ---- Core Settings ----------------------------------
  "core/plugins",           -- Plugins + Packer Config
  "core/keymaps",           -- Custom Keymaps
- "core/options",           -- General Settings
+ "core/options",           -- General Options
 
 ---- Plugin Configurations --------------------------
  "configs/impatient",      -- Improve Startup Time
@@ -28,7 +28,7 @@ local core_modules = {
  "configs/telescope",      -- Fuzzy finder
 
 ---- Other Utilities --------------------------------
- "utils/vstuff",           -- Other Stuff
+ "utils/utils",            -- Utilities
 
 }
 -- Using pcall we can handle better any loading issues
