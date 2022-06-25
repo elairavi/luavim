@@ -77,5 +77,8 @@ vim.api.nvim_exec([[ autocmd VimEnter * set noru]], false)
 -- Disable Background Color Of The Cursorline
 vim.cmd [[hi CursorLine cterm=underline term=underline ctermbg=NONE guibg=NONE]]
 
+-- Remove These ~ ~ ~
+vim.opt.fillchars:append { eob = " " }
+
 -- Disbale Status Line
 -- vim.api.nvim_exec([[ autocmd VimEnter * set laststatus=1]], false)
