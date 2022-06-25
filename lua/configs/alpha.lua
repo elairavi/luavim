@@ -11,13 +11,10 @@ if not status_ok then
     return
 end
 
--- Enable Alpha Dashboard
+-- Enable Alpha dashboard
 local dashboard = require("alpha.themes.dashboard")
 
--- Remove These ~ ~ ~
-vim.opt.fillchars:append { eob = " " }
-
--- Disable Status Line so that alpha dashboard look nice
+-- Disable the statusline to make the dashboard look clean
 vim.cmd [[ au User AlphaReady if winnr('$') == 1 | set laststatus=1 ]]
 
 -- Custom Footer
@@ -44,7 +41,7 @@ dashboard.section.header.val = {
     [[╚══════╝ ╚═════╝  ╚═╝  ╚═╝   ╚═══╝   ╚═╝ ╚═╝     ╚═╝]],
 }
 
--- Layout For Luavim ascii art
+-- Layout for luavim ascii art
 dashboard.config.layout = {
     { type = "padding", val = 6 },
     dashboard.section.header,
@@ -64,7 +61,7 @@ dashboard.config.layout = {
 --     [[╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝]],
 -- }
 
--- -- Layout For Neovim ascii art
+-- -- Layout for Neovim ascii art
 -- dashboard.config.layout = {
 --     { type = "padding", val = 5 },
 --     dashboard.section.header,
@@ -97,7 +94,7 @@ dashboard.config.layout = {
 --     [[ `''                                                                      ``' ]],
 -- }
 
--- -- Layout For Doom Neovim ascii art
+-- -- Layout for Doom Neovim ascii art
 -- dashboard.config.layout = {
 --     { type = "padding", val = 3 },
 --     dashboard.section.header,
