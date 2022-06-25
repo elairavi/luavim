@@ -1,9 +1,9 @@
 
---[[-------------------------------------]]--
---      keymaps - general mappings        --
---              Author: elai               --
---             License: GPLv3              --
---[[-------------------------------------]]--
+--[[------------------------------------]]--
+--       keymaps - general mappings       --
+--             Author: elai               --
+--            License: GPLv3              --
+--[[------------------------------------]]--
 
 -- Shorten function name
 local map = vim.keymap.set
