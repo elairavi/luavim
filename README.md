@@ -1,6 +1,6 @@
 
-![luavim](/img/screenshot1.png?raw=true)
-![tree+split](/img/screenshot2.png?raw=true)
+![luavim](img/screenshot1.png?raw=true)
+![tree+split](img/screenshot2.png?raw=true)
 
 ## Description
 
@@ -63,7 +63,7 @@
     │   ├── options.lua
     │   └── plugins.lua
     └── utils
-        └── vstuff.lua
+        └── utils.lua
 ```
 
 ## Installation
