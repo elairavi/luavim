@@ -12,7 +12,7 @@
 * [Directory Tree](#directory-tree)
 * [Installation](#installation)
 * [Configuration Check](#configuration-check)
-* [Uninstalation](#uninstalation)
+* [Uninstallation](#uninstalation)
 * [Resources](#resources)
 
 ## Plugins List
